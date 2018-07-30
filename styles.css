@@ -1,0 +1,45 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "nav"
+    "title"
+    "avatar-row"
+    "add-profile"
+    "manage-profiles";
+  background-color: black;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  grid-area: "nav";
+  height: 100px;
+}
+
+nav img {
+  height: 75px;
+  float: left;
+}
+
+.title {
+  grid-area: "title";
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 100px;
+}
+
+.avatar-row {
+  grid-area: "avatar-row";
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: auto;
+}
+
+.avatar {
+  margin: auto;
+}
